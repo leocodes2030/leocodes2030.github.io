@@ -3,93 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biografia de Hideo Kojima</title>
+    <title>Biografia Gamer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Biografia de Hideo Kojima</h1>
+        <h1>Biografia Gamer</h1>
+        <!-- Navegação -->
+        <nav>
+            <a href="#historia" title="Ir para a seção História">História</a> |
+            <a href="#obras" title="Ir para a seção Obras">Obras</a> |
+            <a href="#estilo" title="Ir para a seção Estilo e influências">Estilo</a>
+        </nav>
     </header>
 
     <main>
 
-        <!-- Navegação -->
-        <section>
-            <nav>
-                <a href="#historia">História</a> |
-                <a href="#obras">Obras</a> |
-                <a href="#estilo">Estilo</a> |
-                <a href="#carreira">Carreira</a>
-            </nav>
-        </section>
-
         <!-- Foto -->
-        <section>
-            <figure>
-                <img src="https://variety.com/wp-content/uploads/2019/12/hideo_kojima_v3.png" alt="Foto de Hideo Kojima" width="300">
-                <figcaption>Hideo Kojima</figcaption>
-            </figure>
+        <section id="banner-kojima">
+            <div class="container-foto">
+                <figure>
+                    <img src="https://s2-gq.glbimg.com/tqv7acyIyQx0wwzjiX3aNvfOYXA=/0x0:2000x2999/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_71a8fe14ac6d40bd993eb59f7203fe6f/internal_photos/bs/2025/F/V/rAA9URRQyQmzfpUkLw7Q/hideo-kojima-entrevista-gq-2.jpeg" 
+                        alt="Retrato de Hideo Kojima"
+                        width="200">
+                    <figcaption class="legenda">Hideo Kojima</figcaption>
+                </figure>
+            </div>
         </section>
 
-        <hr>
-
-        <!-- História -->
-        <section id="historia">
-            <h2>Quem é Hideo Kojima?</h2>
-
-            <p>
-                <strong>Hideo Kojima</strong> é um designer de jogos, diretor e roteirista japonês,
-                nascido em 24 de agosto de 1963, em Tóquio, Japão.
-            </p>
-
-            <p>
-                Ele é amplamente reconhecido por criar jogos com narrativas profundas,
-                cinematográficas e cheias de reflexões filosóficas.
-            </p>
+        <!--Separador foto-texto-->
+        <section class="separador">
+            ⠀
         </section>
 
-        <hr>
+        <div id="container">
+            <!-- História -->
+            <section id="historia" class="item">
+                <h2>Quem é Hideo Kojima?</h2>
+                <p>
+                    <strong>Hideo Kojima</strong> nasceu em 24 de agosto de 1963, em Setagaya, Tóquio, Japão. Durante a infância, mudou-se com a família para Osaka, onde passou grande parte da juventude. Desde cedo, Kojima demonstrava uma imaginação incomum e um fascínio profundo por histórias. Ele sonhava em se tornar diretor de cinema ou escritor, influenciado por filmes ocidentais, ficção científica e obras complexas que exploravam temas como solidão, guerra e identidade.
+                </p>
+                <p>
+                    Embora tenha cursado Economia, Kojima decidiu seguir sua paixão e entrou na Konami em 1986. Tornou-se mundialmente conhecido por criar Metal Gear, série que revolucionou os videogames ao introduzir o gênero de furtividade e uma narrativa cinematográfica profunda, influenciando gerações de jogos e consolidando seu nome como um dos criadores mais importantes da indústria.
+                </p>
+            </section>
 
-        <!-- Obras -->
-        <section id="obras">
-            <h2>Principais obras</h2>
-            <ul>
-                <li>Metal Gear</li>
-                <li>Metal Gear Solid</li>
-                <li>Metal Gear Solid 2: Sons of Liberty</li>
-                <li>Metal Gear Solid 3: Snake Eater</li>
-                <li>Death Stranding</li>
-            </ul>
-        </section>
+            <!-- Obras -->
+            <section id="obras" class="item">
+        '   <h2>Principais obras</h2>
 
-        <hr>
+                <div class="jogos-fileira">
+                    <a href="https://store.steampowered.com/app/2131640/METAL_GEAR_SOLID_2_Sons_of_Liberty__Master_Collection_Version/" target="_blank">
+                        <figure>
+                            <img src="https://www.adrenaline.com.br/wp-content/uploads/2024/03/metal-gear-solid-2-sons-of-liberty-master-collection-version-capa-310x310.jpg" alt="Metal Gear Solid 2" width="200" height="200">
+                            <figcaption>Metal Gear Solid 2</figcaption>
+                        </figure>
+                    </a>
+                    <a href="https://store.steampowered.com/app/2131650/METAL_GEAR_SOLID_3_Snake_Eater__Master_Collection_Version/" target="_blank">
+                        <figure>
+                            <img src="https://sm.ign.com/ign_br/cover/m/metal-gear/metal-gear-solid-3-snake-eater-remake_vf8v.jpg" alt="Metal Gear Solid 3" width="200" height="200">
+                            <figcaption>Metal Gear Solid 3</figcaption>
+                        </figure>
+                    </a>
+                    <a href="https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/" target="_blank">
+                        <figure>
+                            <img src="https://assetsio.gnwcdn.com/death-stranding-directors-cut-review-analise-ps5-playstation-5-obra-prima-1632398656995.jpg?..." alt="Death Stranding" width="200" height="200">
+                            <figcaption>Death Stranding</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
 
-        <!-- Estilo -->
-        <section id="estilo">
-            <h2>Estilo e influências</h2>
-            <p>
-                Kojima é conhecido por misturar cinema e videogames,
-                utilizando histórias complexas, longas cenas cinematográficas
-                e temas como guerra, política, tecnologia e conexões humanas.
-            </p>
-        </section>
-
-        <hr>
-
-        <!-- Carreira -->
-        <section id="carreira">
-            <h2>Carreira</h2>
-            <p>
-                Kojima iniciou sua carreira na Konami, onde criou a franquia Metal Gear.
-                Após deixar a empresa em 2015, fundou o estúdio Kojima Productions,
-                lançando o jogo Death Stranding.
-            </p>
-        </section>
-
+            <!-- Estilo -->
+            <section id="estilo" class="item">
+                <h2>Estilo e influências</h2>
+                <p>
+                    O estilo de Hideo Kojima é fortemente cinematográfico, com uso de cenas longas, enquadramentos inspirados no cinema e trilhas sonoras marcantes. Suas obras abordam temas profundos como guerra, solidão, identidade, controle da informação e o impacto da tecnologia na sociedade. Kojima costuma quebrar a quarta parede e experimentar novas formas de narrativa, tornando seus jogos únicos e autorais.
+                </p>
+                <p>
+                    Sua influência é global, pois ele ajudou a consolidar os videogames como uma forma de expressão artística. Ao criar jogos que unem jogabilidade inovadora e histórias complexas, Kojima inspirou inúmeros desenvolvedores e estúdios, além de popularizar o gênero de furtividade e o storytelling cinematográfico na indústria dos games.
+                </p>
+            </section>
+            
+        </div>
     </main>
 
     <footer>
+        <h2>Nos dê o seu feedback</h2>
+
+        <form>
+            <legend>Informações de contato</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="comentarios">Comentários:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea><br>
+
+            <button type="button" onclick="alert('FEEDBACK ENVIADO')">Enviar feedback</button>
+        </form>
+        
+        <br><br>
+
         <address>
             © Biografia educativa sobre Hideo Kojima escrita por Leonardo Costa Guilherme – 2026
         </address>
